@@ -1,0 +1,25 @@
+The first test is checking the data veriable is equal to 6
+The test says that the result of the sum of data is equal to 6 
+
+The second test is asking if the data veriable is equal to 1
+The test says that the result of the sum of data are not equal to 1
+
+test_list_fraction (test.TestSum)
+Test that it can sum a list of fractions ... FAIL
+test_list_int (test.TestSum)
+Test that it can sum a list of integers ... ok
+
+======================================================================
+FAIL: test_list_fraction (test.TestSum)
+Test that it can sum a list of fractions
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\tyke-\OneDrive\Desktop\M05 Programming Assignment - Testing\test.py", line 22, in test_list_fraction
+    self.assertEqual(result, 1)
+AssertionError: Fraction(9, 10) != 1
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.006s
+
+FAILED (failures=1)
+
